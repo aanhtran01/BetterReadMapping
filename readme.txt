@@ -4,7 +4,7 @@ Faster Read Mapping
 
 A Python project that aligns donor reads to a reference genome by calculating a Burrows-Wheeler Transform using a Suffix Array. The Burrows-Wheeler-Transform is used along with the FM Index to recover read positions. A seed and extend method is used find potential alignments and the alignment with the best hamming distance is considered to be the best alignment. 
 
-The project finds substitutions and indels outputs a "predictions.txt" of these mutations in this format:
+The code finds substitutions and indels outputs a "predictions.txt" of these mutations in this format:
 
 >S455 A G
 >S460 A G
@@ -15,7 +15,7 @@ The project finds substitutions and indels outputs a "predictions.txt" of these 
 >D281 T
 >D544 C
 
-The project also does its best filter out random sequencing errors. 
+The code also does filter out random sequencing errors, based on an occurance threshold.
 
 Deliverables:
 -------------
