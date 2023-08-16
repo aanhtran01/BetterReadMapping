@@ -15,6 +15,7 @@ The code finds substitutions and indels outputs a "predictions.txt" of these mut
 >D281 T
 >D544 C
 
+Suffixes S refers to substitutions, I refers to indels, and D refers to deletions. 
 The code also does filter out random sequencing errors, based on an occurance threshold.
 
 Deliverables:
